@@ -21,7 +21,7 @@ Para ejecutar este proyecto, es necesario tener instalados los requerimientos m√
 ### 1. Clonar el Repositorio
 
 ```
-git clone https://github.com/AnzurezDev/restful-api.git
+git clone https://github.com/AnzurezDev/Customer-REST-API.git
 ```
 
 ### 2. Instalar Dependencias
