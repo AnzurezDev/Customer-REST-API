@@ -10,7 +10,7 @@ class CreateTokensTable extends Migration{
         Schema::create('auth_tokens', function (Blueprint $table) {
             $table->id();
             $table->string( 'email', 120 );
-            $table->string( 'token', 255 )->unique();
+            $table->string( 'token', 120 )->unique();
             $table->dateTime( 'expiry' );
             $table->timestamps();
         });
